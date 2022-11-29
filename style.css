@@ -1,0 +1,139 @@
+* {
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+#descrição {
+    display: flex;
+    flex-direction: row;
+    background-color: #ece9ea;
+    margin-bottom: 50px;
+}
+
+#instruções {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#vídeo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#faq {
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.card {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.cabeçalho-texto {
+    text-align: center;
+}
+
+.descrição-texto {
+    min-width: 10%;
+    text-align: justify;
+}
+
+.descrição-imagem {
+    height: 100x;
+    float: inline-start;
+}
+
+button {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fdfdfd;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #AD437A;
+    width: 100%;
+}
+
+button:hover {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fdfdfd;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #449080;
+    transition: 0.3s;
+    width: 100%;
+    cursor: pointer;
+}
+
+details {
+    text-align: left;
+}
+
+details summary:hover {
+    background-color: #AD437A;
+    cursor: pointer;
+    color:#fdfdfd;
+    
+}
+
+details summary {
+    text-align: left;
+}
+
+details,
+details summary {
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+#resumo {
+    display: flex;
+    flex-direction: row;
+}
+
+.depoimentos {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+    .cards {
+      min-width: 300px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 200px;
+    }
+
+    #resumo {
+        min-width: 300px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 200px;
+      }
+    
+      #videos-dep {
+        min-width: 300px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 200px;
+      }
+  }  
